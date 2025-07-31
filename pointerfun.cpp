@@ -1,6 +1,7 @@
 #include <iostream>
 #include <conio.h>
 using namespace std;
+
 void swappointer(int *a, int *b)
 {
     int temp = *a;
@@ -8,6 +9,7 @@ void swappointer(int *a, int *b)
     *b = temp;
 }
 int main()
+
 {
 
     int x, y;
